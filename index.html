@@ -270,7 +270,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/common.js"></script>
     <script>
-      var slideIndex = 1;
+      var slideIndex = 2;
       showDivs(slideIndex);
 
       function showSlide(n) {
@@ -281,8 +281,6 @@
         var i;
         var x = document.getElementsByClassName("tab__content");
         var y = document.getElementsByClassName("tab");
-        console.log(x);
-        console.log(n);
         for (i = 0; i < x.length; i++) {
           x[i].style.display = "none";
           y[i].classList.remove("tab--active");
