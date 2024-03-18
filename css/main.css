@@ -493,7 +493,7 @@ h3 {
 
 .hero {
   padding-top: 85px;
-  min-height: 768px;
+  min-height: 668px;
   color: var(--white);
   background: radial-gradient(
     41.46% 41.46% at 50% 50%,
